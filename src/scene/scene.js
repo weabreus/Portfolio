@@ -12,7 +12,7 @@ const executeScene = () => {
 const gui = new dat.GUI()
 
 const parameters = {
-    materialColor: '#ffeded'
+    materialColor: '#ffffff'
 }
 
 gui
@@ -21,6 +21,10 @@ gui
         material.color.set(parameters.materialColor)
         particlesMaterial.color.set(parameters.materialColor)
     })
+
+
+gui.close()
+gui.hide()
 
 /**
  * Base
