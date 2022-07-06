@@ -14,9 +14,9 @@ body
     overflow: hidden;
 } */
 
-html
+:root
 {
-    background-color: #1e1a20;
+    background-color: #0a192f;
 }
 
 .webgl
@@ -44,4 +44,26 @@ html
 section:nth-child(even)
 {
     justify-content: flex-end;
+}
+
+section p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.numberedheading::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #233554;
+}
+
+.projectimage {
+    filter: grayscale(100%) contrast(1) brightness(90%);
 }

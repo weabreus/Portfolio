@@ -1,74 +1,54 @@
-import React from "react";
+import centinelaImage from "./img/carlos-muza-hpjSkU2UYSU-unsplash.jpg"
 
 const MyProjects = () => {
   return (
-    <div className="card max-w-[50%] w-[50%] h-[50%] bg-indigo-500 text-primary-content">
-      <div className="card-body">
-        <h2 className="card-title">Card title!</h2>
-        <div className="carousel w-full">
-          <div id="slide1" className="carousel-item relative w-full">
-            <img
-              src="https://api.lorem.space/image/car?w=800&h=200&hash=8B7BCDC2"
-              className="w-full"
-            />
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide4" className="btn btn-circle" onClick={(e) => {
-                e.preventDefault()
-                // @ts-ignore
-                // window.location = e.target.getAttribute('href')
-              } }>
-                ❮
-              </a>
-              <a href="#slide2" className="btn btn-circle">
-                ❯
-              </a>
+    <section className="w-[50%] h-[80%]">
+      <h2 className="numberedheading flex items-center relative mt-[10px] mb-[40px] mx-0 w-full text-[2vw] whitespace-nowrap text-lightest-slate leading-[1.1] font-semibold">
+        Things I've Built
+      </h2>
+
+      <ul className="list-none p-0 m-0 block">
+        {/* Centinela Project */}
+        <li className="mb-[100px] relative grid gap-2.5 grid-cols-12 items-center">
+          {/* Content */}
+          <div className="  col-start-7 col-end-[-1] text-right relative row-start-1 row-end-[-1] z-50">
+            <div>
+              <p className="my-2.5 text-indigo-400 font-sans text-xs font-semibold">
+                Latest Project
+              </p>
+              <h3 className="mb-[20px] text-lightest-slate text-[1vw] font-bold">
+                Centinela Access Control
+              </h3>
+              <div className=" shadow-projectDesc relative z-2 p-[25px] rounded bg-light-navy text-light-slate text-xs">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam auctor massa non molestie imperdiet. Vestibulum
+                  sollicitudin libero ultrices ullamcorper congue. Praesent ante
+                  neque, pulvinar eget elit a, mollis vulputate tortor.
+                </p>
+              </div>
+              {/* Project tech stack */}
+              <ul className=" justify-end flex flex-wrap relative z-2 mt-[25px] mb-[10px] p-0 list-none text-xs text-light-slate">
+                <li className="mb-[5px] ml-[20px]">React</li>
+                <li className="mb-[5px] ml-[20px]">Typescript</li>
+                <li className="mb-[5px] ml-[20px]">Firebase</li>
+                <li className="mb-[5px] ml-[20px]">Tailwind CSS</li>
+              </ul>
             </div>
           </div>
-          <div id="slide2" className="carousel-item relative w-full">
-            <img
-              src="https://api.lorem.space/image/car?w=800&h=200&hash=500B67FB"
-              className="w-full"
-            />
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide3" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
+          {/* Project Image */}
+          <div className=" col-start-1 col-end-8 shadow-projectDesc row-start-1 row-end-[-1] relative z-1 list-none block">
+            <a className="w-full h-full bg-indigo-400 rounded align-middle relative z-1 inline-block no-underline" href="">
+              <div className="rounded mix-blend-multiply filter w-full max-w-full h-full projectimage align-middle inline-block relative overflow-hidden">
+                <div className="max-w-[700px] block">
+                  <img className="" src={centinelaImage} alt="" />  
+                </div>
+              </div>
+            </a>
           </div>
-          <div id="slide3" className="carousel-item relative w-full">
-            <img
-              src="https://api.lorem.space/image/car?w=800&h=200&hash=A89D0DE6"
-              className="w-full"
-            />
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide2" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide4" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide4" className="carousel-item relative w-full">
-            <img
-              src="https://api.lorem.space/image/car?w=800&h=200&hash=225E6693"
-              className="w-full"
-            />
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide3" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide1" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </li>
+      </ul>
+    </section>
   );
 };
 
