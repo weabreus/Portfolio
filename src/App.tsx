@@ -4,11 +4,13 @@ import ContactMe from './components/section/ContactMe';
 import MyPortfolio from './components/section/MyPortfolio';
 import MyProjects from './components/section/projects/MyProjects';
 import PortfolioSection from './components/section/PortfolioSection';
+import Sidebar from './components/sidebar/Sidebar';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      
       <Canvas />
 
       <PortfolioSection>
@@ -23,7 +25,7 @@ function App() {
         <ContactMe />
       </PortfolioSection>
 
-
+      <Sidebar />
     </div>
   );
 }
