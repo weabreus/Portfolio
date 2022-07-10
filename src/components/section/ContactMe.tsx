@@ -2,12 +2,12 @@ import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 
 const ContactMe = () => {
   return (
-    <section className="w-full flex justify-center lg:w-[50%] sm:block sm:justify-start sm:h-full h-[50%]">
+    <section className="w-full flex sm:justify-center lg:w-[50%] sm:block h-[50%]">
       <div>
-        <h2 className="mb-2.5 font-semibold text-lightest-slate leading-none md:text-[2vw] text-[6vw]">
+        <h2 className="mb-4 font-semibold text-lightest-slate leading-none md:text-[2vw] text-[6vw] md:text-center">
           Get In Touch
         </h2>
-        <p className="m-0 mb-4 text-slate font-sans text-base font-extralight sm:text-[2.5vw] md:text-[1.5vw] text-[4.5vw]">
+        <p className="m-0 mb-6 text-slate font-sans text-base font-extralight sm:text-[2.5vw] md:text-[1.5vw] text-[4.5vw]">
           I'm always looking for new opportunities, my inbox is always open. If
           you require any services or a team member for any of the following
           technologies, please feel free to reach out.
