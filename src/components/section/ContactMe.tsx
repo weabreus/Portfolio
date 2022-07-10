@@ -2,7 +2,7 @@ import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 
 const ContactMe = () => {
   return (
-    <section className="w-full flex sm:justify-center lg:w-[50%] sm:block h-[50%]">
+    <section className=" mt-6 md:mt-0 w-full flex sm:justify-center lg:w-[50%] sm:block h-[50%]">
       <div>
         <h2 className="mb-4 font-semibold text-lightest-slate leading-none md:text-[2vw] text-[6vw] md:text-center">
           Get In Touch
