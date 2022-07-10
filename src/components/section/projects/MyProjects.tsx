@@ -4,8 +4,8 @@ import pimImage from "../img/PIM.png";
 
 const MyProjects = () => {
   return (
-    <section className="w-[50%] h-[100%]">
-      <h2 className="numberedheading flex items-center relative mt-[10px] mb-[40px] mx-0 w-full text-[2vw] whitespace-nowrap text-lightest-slate leading-[1.1] font-semibold">
+    <section className="w-full h-fit sm:w-[80%] lg:w-[50%] sm:block sm:justify-start">
+      <h2 className="numberedheading flex items-center relative mt-[10px] mb-[40px] mx-0 w-full md:text-[2vw] text-[6vw] whitespace-nowrap text-lightest-slate leading-[1.1] font-semibold">
         Things I've Built
       </h2>
 

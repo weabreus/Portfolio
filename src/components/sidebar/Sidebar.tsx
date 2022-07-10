@@ -8,7 +8,7 @@ const Sidebar = () => {
           {/* Github */}
           <li>
             <a
-              className="p-0"
+              className="p-2.5"
               href="https://github.com/weabreus"
               target={"_blank"}
               aria-label="Github"
@@ -34,7 +34,7 @@ const Sidebar = () => {
           {/* LinkedIn */}
           <li>
             <a
-              className="p-0 "
+              className=" p-2.5 "
               href="https://www.linkedin.com/in/wellingtonabreu/"
               target={"_blank"}
               aria-label="LinkedIn"
@@ -62,7 +62,7 @@ const Sidebar = () => {
           {/* Email */}
           <li className=" mb-5">
             <a
-              className="p-0 "
+              className="p-2.5"
               href="mailto:wellington.abreu@gmail.com"
               target={"_blank"}
               aria-label="Email"

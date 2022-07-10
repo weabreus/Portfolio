@@ -17,18 +17,18 @@ const ProjectDetails: React.FC<{
   }
 
   return (
-    <li className="mb-[25px] relative grid gap-2.5 grid-cols-12 items-center">
+    <li className="mb-[25px] block lg:relative lg:grid lg:gap-2.5 lg:grid-cols-12 lg:items-center">
       {/* Content */}
       <div
         className={
-          classNames(orientation === "left" ? "col-start-7 col-end-[-1] text-right": "col-start-1 col-end-7 text-left"," relative row-start-1 row-end-[-1] z-50")
+          classNames(orientation === "left" ? "md:col-start-7 md:col-end-[-1] md:text-right": "col-start-1 col-end-7 text-left"," relative row-start-1 row-end-[-1] z-50")
         }
       >
         <div>
-          <p className="my-2.5 text-indigo-400 font-sans text-xs font-semibold">
+          <p className="my-2.5 text-indigo-400 font-sans sm:text-sm lg:text-xs font-semibold">
             Latest Project
           </p>
-          <h3 className="mb-[20px] text-lightest-slate text-[1vw] font-bold">
+          <h3 className="mb-[20px] text-lightest-slate md:text-[1vw] text-[5vw] font-bold">
             {projectName}
           </h3>
           <div className="shadow-projectDesc relative z-2 p-[25px] rounded bg-light-navy text-light-slate text-xs">
