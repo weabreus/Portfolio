@@ -137,7 +137,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-Wellington Abreu - [@twitter_handle](https://twitter.com/WAS_DR) - wellington.abreu@gmail.com
+Wellington Abreu - [@WAS_DR](https://twitter.com/WAS_DR) - wellington.abreu@gmail.com
 
 Project Link: [https://github.com/weabreus/Portfolio](https://github.com/weabreus/Portfolio)
 
