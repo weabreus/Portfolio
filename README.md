@@ -10,14 +10,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <style>
-    .logo {
-        padding: 1rem;
-        border: 1px solid white;
-        width: fit-content;
-        color: white;
-    }
-    </style>
   <a href="https://github.com/weabreus/Portfolio">
     <h2 class="logo">W</h2>
   </a>
