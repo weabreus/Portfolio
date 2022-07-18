@@ -2,9 +2,9 @@ import ProjectDetails from "./ProjectDetails";
 import centinelaImage from "../img/Centinela.png";
 import pimImage from "../img/PIM.png";
 
-const MyProjects = () => {
+const MyProjects: React.FC<{projects: React.RefObject<HTMLElement>}> = ({projects}) => {
   return (
-    <section className="w-full h-fit sm:w-[80%] lg:w-[50%] sm:block sm:justify-start">
+    <section ref={projects} className="w-full h-fit sm:w-[80%] lg:w-[50%] sm:block sm:justify-start">
       <h2 className="numberedheading flex items-center relative mt-[10px] mb-[40px] mx-0 w-full md:text-[2vw] text-[6vw] whitespace-nowrap text-lightest-slate leading-[1.1] font-semibold">
         Things I've Built
       </h2>

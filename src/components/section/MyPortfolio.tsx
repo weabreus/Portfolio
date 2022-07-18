@@ -1,6 +1,8 @@
-const MyPortfolio = () => {
+import React from "react";
+
+const MyPortfolio: React.FC<{hero: React.RefObject<HTMLElement>}> = ({hero}) => {
   return (
-    <section className="sm:w-[80%] lg:w-[50%] sm:block sm:justify-start h-[50%] w-full flex justify-center">
+    <section ref={hero} className="sm:w-[80%] lg:w-[50%] sm:block sm:justify-start h-[50%] w-full flex justify-center">
       <div>
         <h1 className="mb-[30px] text-indigo-400 font-sans font-normal lg:text-[1.5vw] sm:text-[2.5vw] text-[4.5vw]">
           Hi, my name is

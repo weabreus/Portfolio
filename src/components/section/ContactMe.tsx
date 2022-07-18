@@ -1,8 +1,9 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
+import React from "react";
 
-const ContactMe = () => {
+const ContactMe: React.FC<{contact: React.RefObject<HTMLElement>}> = ({contact}) => {
   return (
-    <section className=" mt-6 md:mt-0 w-full flex sm:justify-center lg:w-[50%] sm:block h-[50%]">
+    <section ref={contact} className=" mt-6 md:mt-0 w-full flex sm:justify-center lg:w-[50%] sm:block h-[50%]">
       <div>
         <h2 className="mb-4 font-semibold text-lightest-slate leading-none md:text-[2vw] text-[6vw] md:text-center">
           Get In Touch
