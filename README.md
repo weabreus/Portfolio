@@ -1,12 +1,4 @@
 <div id="top"></div>
-<style>
-    .logo {
-        padding: 1rem;
-        border: 1px solid white;
-        width: fit-content;
-        color: white;
-    }
-</style>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -15,11 +7,17 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+    <style>
+    .logo {
+        padding: 1rem;
+        border: 1px solid white;
+        width: fit-content;
+        color: white;
+    }
+    </style>
   <a href="https://github.com/weabreus/Portfolio">
     <h2 class="logo">W</h2>
   </a>
@@ -39,8 +37,6 @@
     <a href="https://github.com/weabreus/Portfolio/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -65,30 +61,26 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://www.wellingtonabreu.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* [![React][React.js]][React-url]
-* [![Three][Three.js]][Three-url]
-* [![GSAP][GSAP]][GSAP-url]
-* [![Typescript][Typescript]][Typescript-url]
-* [![Tailwind][Tailwind]][Tailwind-url]
+- [![React][react.js]][react-url]
+- [![Three][three.js]][three-url]
+- [![GSAP][gsap]][gsap-url]
+- [![Typescript][typescript]][typescript-url]
+- [![Tailwind][tailwind]][tailwind-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 If you want to run this Portfolio locally in yout machine follow the next steps.
@@ -96,7 +88,8 @@ If you want to run this Portfolio locally in yout machine follow the next steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -112,28 +105,27 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 3. Run the installation with
-    ```sh
-    npm start
-    ```
+   ```sh
+   npm start
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Getting basic information on the Portfolio and deploying it to the internet.
 - [ ] Add transition animation when changing sections.
 - [ ] Add extended information section for each project.
-    - [ ] Add more projects.
+  - [ ] Add more projects.
 
 See the [open issues](https://github.com/weabreus/Portfolio/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -149,8 +141,8 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- CONTACT -->
+
 ## Contact
 
 Wellington Abreu - [@twitter_handle](https://twitter.com/WAS_DR) - wellington.abreu@gmail.com
@@ -160,6 +152,7 @@ Project Link: [https://github.com/weabreus/Portfolio](https://github.com/weabreu
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/weabreus/Portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/weabreus/Portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/weabreus/Portfolio.svg?style=for-the-badge
@@ -173,13 +166,13 @@ Project Link: [https://github.com/weabreus/Portfolio](https://github.com/weabreu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/wellingtonabreu
 [product-screenshot]: images/screenshot.png
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Three.js]: https://img.shields.io/badge/Three-20232A?style=for-the-badge&logo=threedotjs&logoColor=61DAFB
-[Three-url]: https://threejs.org/
-[Typescript]: https://img.shields.io/badge/Typescript-20232A?style=for-the-badge&logo=typescript&logoColor=61DAFB
-[Typescript-url]: https://www.typescriptlang.org/
-[Tailwind]: https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
-[Tailwind-url]: https://tailwindcss.com/
-[GSAP]: https://img.shields.io/badge/GSAP-20232A?style=for-the-badge&logo=greensock&logoColor=61DAFB
-[GSAP-url]: https://greensock.com/gsap/
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[three.js]: https://img.shields.io/badge/Three-20232A?style=for-the-badge&logo=threedotjs&logoColor=61DAFB
+[three-url]: https://threejs.org/
+[typescript]: https://img.shields.io/badge/Typescript-20232A?style=for-the-badge&logo=typescript&logoColor=61DAFB
+[typescript-url]: https://www.typescriptlang.org/
+[tailwind]: https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
+[tailwind-url]: https://tailwindcss.com/
+[gsap]: https://img.shields.io/badge/GSAP-20232A?style=for-the-badge&logo=greensock&logoColor=61DAFB
+[gsap-url]: https://greensock.com/gsap/
